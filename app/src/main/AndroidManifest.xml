@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chat_boss">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:name="com.example.chat_boss.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChatBoss">
+        <activity
+            android:name="com.example.chat_boss.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<meta-data
+            android:name="im.threads.getServerUrl"
+            android:value="https://mosmetro-ds.threads.im/" />
+        <meta-data
+            android:name="im.threads.threadsGateUrl"
+            android:value="wss://mosmetro.threads.im/socket" />
+        <meta-data
+            android:name="im.threads.threadsGateProviderUid"
+            android:value="PH5FY2ohT0RmXWMsRkUyOlBELlJnMERmMC0xfj4=" />
+        <meta-data
+            android:name="im.threads.threadsTransportType"
+            android:value="THREADS_GATE"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.pushserver.android.logs"
+            android:value="false" />-->
+
+        <meta-data
+            android:name="im.threads.getServerUrl"
+            android:value="https://mosmetro-test-store.threads.im/" />
+        <meta-data
+            android:name="im.threads.threadsGateUrl"
+            android:value="wss://mosmetro-test.threads.im/socket" />
+        <meta-data
+            android:name="im.threads.threadsGateProviderUid"
+            android:value="PH5AckgzOkFVJVgjRSw5KTxAcV06bT9YZHFwRXJ+Pg==" />
+        <meta-data
+            android:name="im.threads.threadsTransportType"
+            android:value="THREADS_GATE"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.pushserver.android.logs"
+            android:value="false" />
+        <meta-data
+            android:name="im.threads.getDatastoreUrl"
+            android:value="https://mosmetro-test.edna.io/files"/>
+    </application>
+
+</manifest>

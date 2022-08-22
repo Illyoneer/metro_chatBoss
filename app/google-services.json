@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995895814989",
+    "project_id": "chat-boss-77b8a",
+    "storage_bucket": "chat-boss-77b8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995895814989:android:a4125657ab26df88ff2504",
+        "android_client_info": {
+          "package_name": "com.example.chat_boss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995895814989-g6ku5q65elivgpfm5iqd4u22lod26ctb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcU2Gjs7935GtQPeNWq53B0eWEBxbQrcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995895814989-g6ku5q65elivgpfm5iqd4u22lod26ctb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

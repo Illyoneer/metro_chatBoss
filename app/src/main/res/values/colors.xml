@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#DA2032</color>
+    <color name="colorPrimaryDark">#B52828</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorOverlayLight">#DEDEDE</color>
+    <color name="colorOverlayDark">#F5F5F5</color>
+    <color name="colorSecondaryInterface">#F5F5F5</color>
+    <color name="colorThirdInterface">#D62828</color>
+    <color name="colorFourthInterface">#FFFFFF</color>
+    <color name="colorFifthInterface">#000000</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorSecondaryText">#9A99A2</color>
+    <color name="colorThirdText">#424242</color>
+    <color name="colorFourthText">#666F78</color>
+    <color name="colorFifthText">#666F78</color>
+    <color name="colorFavouriteText">#F2994A</color>
+    <color name="colorSeparator">#F5F5F5</color>
+    <color name="colorButtonStroke">#00000000</color>
+    <color name="colorButtonSolid">#FAF0F1</color>
+    <color name="colorNavigationSelected">#DA2032</color>
+    <color name="colorNavigationUnselected">#E56370</color>
+    <color name="colorGradientStart">#00FFFFFF</color>
+    <color name="colorGradientEnd">#FFFFFFFF</color>
+    <color name="colorShimmerTransparent">#80000000</color>
+    <color name="colorBottomSheetUnselected">#6D7885</color>
+    <color name="colorCardInterface">#FFFFFF</color>
+    <color name="colorRadioButton">#40000000</color>
+    <color name="colorNavigationView">#1F2023</color>
+    <color name="colorCancel">#FAF0F1</color>
+    <color name="colorFilterBar">#FFFFFF</color>
+    <color name="colorSeparatorMore">#1A98999A</color>
+
+    <color name="gray">#707070</color>
+    <color name="lighter_blue">#aff0ff</color>
+
+    <color name="colorBase">#FFFFFF</color>
+    <color name="colorMain">@color/colorPrimary</color>
+    <color name="colorLightMain">#FAF0F1</color>
+    <color name="colorText">#000000</color>
+    <color name="colorWeb">#2D9CDB</color>
+    <color name="colorBookmark">#F2994A</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorNavBar">#DA2032</color>
+    <color name="colorGrey1">#98999A</color>
+    <color name="colorGrey2">#424242</color>
+    <color name="colorOverlay">#F5F5F5</color>
+    <color name="colorLow">#34C759</color>
+    <color name="colorMedium">#FFCC00</color>
+    <color name="colorMediumHigh">#FF9500</color>
+    <color name="colorHigh">#FF3B30</color>
+    <color name="colorOpened">#34C759</color>
+    <color name="colorClosed">#FF3B30</color>
+    <color name="colorEmergency">#FDDA18</color>
+    <color name="colorClosing">#DE4C4C</color>
+    <color name="colorTextfield">#efeff0</color>
+    <color name="colorOpacityButton">#FFFFFF</color>
+    <color name="colorButtonPressed">#E8E7E7</color>
+
+    <!-- цвета для кастомизации -->
+    <!--<color name="threads_welcome_screen_title">@color/gray</color>
+    <color name="threads_welcome_screen_subtitle">@color/gray</color>
+
+    <color name="threads_chat_toolbar">@color/colorThirdInterface</color>
+    <color name="threads_chat_toolbar_text">@color/white</color>
+    <color name="threads_chat_status_bar">@color/colorPrimaryDark</color>
+    <color name="threads_chat_toolbar_menu_item">@color/colorPrimary</color>
+    <color name="threads_chat_toolbar_hint">#B5D18F</color>
+    <color name="threads_chat_system_message">@color/colorPrimaryText</color>
+
+    <color name="threads_chat_background">@color/colorBase</color>
+    <color name="threads_chat_highlighting">@color/colorPrimary</color>
+    <color name="threads_chat_incoming_message_bubble">@color/colorOverlayLight</color>
+    <color name="threads_chat_outgoing_message_bubble">@color/colorPrimary</color>
+    <color name="threads_incoming_message_text">@color/colorPrimaryText</color>
+    <color name="threads_outgoing_message_text">@color/white</color>
+    <color name="threads_chat_icons_tint">@color/colorPrimary</color>
+    <color name="threads_chat_connection_message">@color/colorPrimaryText</color>
+    <color name="threads_user_message_timestamp">@color/white</color>
+    <color name="threads_operator_message_timestamp">@color/colorPrimaryText</color>
+
+    <color name="threads_files_medias_screen_background">@color/white</color>
+    <color name="threads_icon_and_separators_color">@color/gray</color>
+
+    <color name="threads_input_background">@color/white</color>
+    <color name="threads_input_text">@color/colorPrimaryText</color>
+    <color name="threads_input_hint">#999999</color>
+
+    <color name="threads_schedule_text">@color/gray</color>
+
+    <color name="threads_push_background">@color/colorAccent</color>
+    <color name="threads_nougat_push_accent">@color/colorAccent</color>
+
+    <color name="threads_survey_selected_icon_tint">@color/colorAccent</color>
+    <color name="threads_survey_unselected_icon_tint">@color/colorAccent</color>
+    <color name="threads_survey_choices_text">@color/colorAccent</color>
+
+    <color name="threads_outgoing_message_link">@color/lighter_blue</color>
+    <color name="threads_incoming_message_link">#1A2FB4</color>-->
+
+    <!--Конец кастомизации чат-бота-->
+
+    <color name="chat_toolbar_hint">#B5D18F</color>
+</resources>

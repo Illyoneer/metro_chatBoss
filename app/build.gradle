@@ -1,0 +1,92 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+}
+
+android {
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    compileSdk rootProject.compileSdkVersion
+
+    defaultConfig {
+        minSdk rootProject.minSdkVersion
+        targetSdk rootProject.targetSdkVersion
+        applicationId "com.example.chat_boss"
+
+        versionCode 89
+        versionName "$version"
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        project.ext.set("archivesBaseName", "Threads-app " + defaultConfig.versionName)
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        resConfigs "en", "ru"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+            debuggable = true
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'junit:junit:4.12'
+
+    debugImplementation("im.threads:threads-debug:$rootProject.chatBotVersion") {
+        exclude group: 'com.edna.android', module: 'push-lite-huawei-release'
+    }
+    releaseImplementation("im.threads:threads-release:$rootProject.chatBotVersion") {
+        exclude group: 'com.edna.android', module: 'push-lite-huawei-release'
+    }
+
+    implementation "androidx.core:core-ktx:$rootProject.androidXCoreVersion"
+
+    implementation "com.google.android.material:material:$rootProject.materialComponentsVersion"
+
+    implementation "com.edna.android:push-lite-release:$rootProject.pushVersion"
+    implementation "com.edna.android:push-lite-huawei-release:$rootProject.pushVersion"
+
+    //Hilt
+    implementation "com.google.dagger:hilt-android:2.38.1"
+    kapt "com.google.dagger:hilt-compiler:2.38.1"
+
+    //GooglePlayServices
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation "com.google.android.gms:play-services-base:18.0.1"
+    implementation 'com.google.android.gms:play-services-wallet:19.1.0'
+
+    implementation 'com.karumi:dexter:6.2.3'
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+}
