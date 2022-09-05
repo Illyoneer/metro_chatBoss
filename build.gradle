@@ -39,6 +39,6 @@ ext {
     materialComponentsVersion = '1.4.0'
     pushVersion = '3.3.0'
 
-    chatBotVersion = '4.3.0'
+    chatBotVersion = '4.5.0'
 
 }
