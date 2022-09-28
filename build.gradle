@@ -7,12 +7,12 @@ buildscript {
         maven { url 'https://developer.huawei.com/repo/' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.android.tools.build:gradle:7.2.2'
         classpath 'com.google.gms:google-services:4.3.10'
         classpath 'net.researchgate:gradle-release:2.8.1'
         classpath 'com.huawei.agconnect:agcp:1.6.2.300'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.38.1'
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.1'
     }
 }
 
@@ -39,6 +39,6 @@ ext {
     materialComponentsVersion = '1.4.0'
     pushVersion = '3.3.0'
 
-    chatBotVersion = '4.5.1'
+    chatBotVersion = '4.6.0'
 
 }

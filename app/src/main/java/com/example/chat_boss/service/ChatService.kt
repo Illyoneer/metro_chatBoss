@@ -6,10 +6,10 @@ import android.provider.Settings
 import android.util.Log
 import dagger.hilt.android.qualifiers.ApplicationContext
 import im.threads.ChatStyle
-import im.threads.ConfigBuilder
-import im.threads.ThreadsLib
 import im.threads.UserInfoBuilder
-import im.threads.view.ChatActivity
+import im.threads.ui.activities.ChatActivity
+import im.threads.ui.config.ConfigBuilder
+import im.threads.ui.core.ThreadsLib
 import org.json.JSONObject
 import javax.inject.Inject
 
