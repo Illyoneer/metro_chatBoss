@@ -64,7 +64,7 @@ class ChatService @Inject constructor(@ApplicationContext private val context: C
         val style = ChatStyle()
             .setVoiceMessageEnabled(true)
             .setUseExternalCameraApp(true)
-            .setInputEnabledDuringQuickReplies(true)
+            .setInputEnabledDuringQuickReplies(false)
 
         ThreadsLib.getInstance().applyChatStyle(style)
 
