@@ -5,8 +5,8 @@ import android.content.Intent
 import android.provider.Settings
 import android.util.Log
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.threads.ChatStyle
-import im.threads.UserInfoBuilder
+import im.threads.business.UserInfoBuilder
+import im.threads.ui.ChatStyle
 import im.threads.ui.activities.ChatActivity
 import im.threads.ui.config.ConfigBuilder
 import im.threads.ui.core.ThreadsLib
