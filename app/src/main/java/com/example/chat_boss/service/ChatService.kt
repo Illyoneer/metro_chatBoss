@@ -6,11 +6,13 @@ import android.provider.Settings
 import android.util.Log
 import dagger.hilt.android.qualifiers.ApplicationContext
 import im.threads.business.UserInfoBuilder
+import im.threads.business.logger.LoggerConfig
 import im.threads.ui.ChatStyle
 import im.threads.ui.activities.ChatActivity
 import im.threads.ui.config.ConfigBuilder
 import im.threads.ui.core.ThreadsLib
 import org.json.JSONObject
+import java.io.File
 import javax.inject.Inject
 
 class ChatService @Inject constructor(@ApplicationContext private val context: Context) {
@@ -55,10 +57,14 @@ class ChatService @Inject constructor(@ApplicationContext private val context: C
     }
 
     fun initChatBot() {
+        val loggerConfig = LoggerConfig.Builder(context)
+            .build()
+
         val config = ConfigBuilder(context)
             .surveyCompletionDelay(2000)
             .historyLoadingCount(50)
             .isDebugLoggingEnabled(true)
+            .enableLogging(loggerConfig)
         ThreadsLib.init(config)
 
         val style = ChatStyle()

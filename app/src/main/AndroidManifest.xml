@@ -43,7 +43,7 @@
 
         <meta-data
             android:name="im.threads.getServerUrl"
-            android:value="https://mosmetro-test-store.threads.im/" />
+            android:value="https://mosmetro-test.threads.im/" />
         <meta-data
             android:name="im.threads.threadsGateUrl"
             android:value="wss://mosmetro-test.threads.im/socket" />
